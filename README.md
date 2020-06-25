@@ -7,9 +7,6 @@ Installation Guide - Spark Theme
  - Edit the line marked with "APP_THEME=pterodactyl" to "APP_THEME=spark".
  - SSH into your machine and type:
  
-  cd /var/www/pterodactyl
-  php artisan view:clear
-  php artisan theme:refresh-cache
-  php artisan queue:flush
+  **cd /var/www/pterodactyl && php artisan view:clear && php artisan theme:refresh-cache && php artisan queue:flush**
   
  - Refresh your Pterodactyl Panel and enjoy your new theme!
