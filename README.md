@@ -5,7 +5,8 @@ Installation Guide - Spark Theme
  - Once done uploading, refresh your Pterodactyl Panel.
  - Now head over to /var/www/pterodactyl and edit the file named ".env". (If you cannot see this file, enable "show hidden files".)
  - Edit the line marked with "APP_THEME=pterodactyl" to "APP_THEME=spark".
- - SSH into your machine and type:
+ - SSH into your Panel host machine.
+  - Copy and Paste the following command:
  
   **cd /var/www/pterodactyl && php artisan view:clear && php artisan theme:refresh-cache && php artisan queue:flush**
   
